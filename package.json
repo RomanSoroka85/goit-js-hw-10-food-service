@@ -1,5 +1,5 @@
 {
-  "name": "module10/goit-js-hw-10-food-service.git",
+  "name": "module9",
   "version": "1.0.0",
   "description": "mod9",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RomanSoroka85/module10/goit-js-hw-10-food-service.git"
+    "url": "git+https://github.com/RomanSoroka85/module9.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RomanSoroka85/module10/goit-js-hw-10-food-service.git/issues"
+    "url": "https://github.com/RomanSoroka85/module9/issues"
   },
-  "homepage": "https://github.com/RomanSoroka85/module10/goit-js-hw-10-food-service.git#readme",
+  "homepage": "https://github.com/RomanSoroka85/module9#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
