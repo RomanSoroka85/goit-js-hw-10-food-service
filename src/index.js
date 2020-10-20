@@ -2,7 +2,7 @@ import css from "./css/style.css";
 import post from "./post.hbs";
 import menu from "./menu.json";
 
-const theme = {
+const Theme = {
   LIGHT: "light-theme",
   DARK: "dark-theme",
 };
@@ -12,13 +12,21 @@ const jsMenu = document.querySelector(".js-menu");
 const menuItem = post(menu);
 jsMenu.insertAdjacentHTML("afterbegin", menuItem);
 
-themeSwitchToggle.addEventListener ("input", (event) =>{
+if (localStorage.getItem('theme')) {
+  body.classList.add(Theme.DARK);
+  themeSwitchToggle.checked = true
+}
+
+
+themeSwitchToggle.addEventListener ("change", (event) =>{
 if (event.target.checked) {
-  body.classList.add(`${theme.DARK}`);
-  body.classList.remove(`${theme.LIGHT}`);
+  body.classList.add(Theme.DARK);
+  body.classList.remove(Theme.LIGHT);
+  localStorage.setItem('theme', '!')
 } else {
-  body.classList.remove(`${theme.DARK}`);
-  body.classList.add(`${theme.LIGHT}`);
+  body.classList.remove(Theme.DARK);
+  body.classList.add(Theme.LIGHT);
+  localStorage.removeItem('theme')
 }
 });
 
