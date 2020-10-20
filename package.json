@@ -1,5 +1,5 @@
 {
-  "name": "module9",
+  "name": "module10",
   "version": "1.0.0",
   "description": "mod9",
   "main": "index.js",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RomanSoroka85/module9.git"
+    "url": "git+https://github.com/RomanSoroka85/module10/goit-js-hw-10-food-service.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RomanSoroka85/module9/issues"
+    "url": "https://github.com/RomanSoroka85/module10/goit-js-hw-10-food-service/issues"
   },
   "homepage": "https://github.com/RomanSoroka85/module10/goit-js-hw-10-food-service#readme",
   "devDependencies": {
